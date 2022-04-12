@@ -1,0 +1,102 @@
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+.header-background {
+	background-color: #ffd3a3;
+	color: #130f40;
+}
+a {
+	text-decoration: none !important;
+	color: #130f40 !important;
+}
+.navbar-brand {
+	padding: 0px !important;
+}
+
+.custom-shadow {
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.31) !important;
+}
+
+box-icon:hover {
+	cursor: pointer;
+}
+
+.logout:hover {
+	cursor: pointer;
+	color: #d35400;
+}
+
+.home-content {
+	padding: 150px 120px;
+	text-align: center;
+}
+.home-content p {
+	margin: 0;
+}
+.home-content .welcome-text {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 300;
+	word-spacing: 4px;
+	letter-spacing: 4px;
+}
+
+.home-content .welcome-title {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 98px;
+	color: #2980b9;
+}
+
+.home-content .welcome-title .welcome-color {
+	position: relative;
+	color: #2980b9;
+	border-radius: 50%;
+}
+
+.home-content .welcome-title .welcome-mark {
+	height: 60%;
+	position: absolute;
+	color: #e67e22;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.home-content .welcome-title .welcome-span {
+	color: #e67e22;
+}
+
+.card-qoutes {
+	width: 600px;
+	max-width: 600px;
+	justify-content: center;
+	text-align: center;
+}
+.card-details-title {
+	color: #fff;
+	background-color: #e67e22;
+	padding: 10px;
+}
+.card-details-title h3 {
+	margin-bottom: 0;
+	text-transform: capitalize;
+}
+.card-details {
+	position: relative;
+	border: 1px solid #3498db;
+	color: #fff;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	background-color: #3498db;
+	padding: 20px;
+}
+
+.fas {
+	font-size: 3.5rem;
+	position: absolute;
+	top: 12%;
+	left: 7%;
+	color: rgba(255, 255, 255, 0.527);
+}
